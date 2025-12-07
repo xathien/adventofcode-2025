@@ -25,8 +25,5 @@ splitters = File.readlines('input')
   }.flatten(1).to_h
 
 count = traverse(splitters, 70, 0, max_row)
-# count = traverse(splitters, 7, 0, max_row)
-
-puts splitters.inspect
 
 pp "Count? #{count}"
